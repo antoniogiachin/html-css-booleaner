@@ -18,3 +18,24 @@ header #logo-bool{
     bottom:15px;
     left:5px;
 }
+
+/* Title  */
+#title h1, #title .desc-title, #title .title-img{
+    margin:10px;
+}
+
+#title > h1{
+    font-size: 3em;
+}
+
+#title .desc-title {
+    color: #928f8f;
+}
+
+#title .desc-title a {
+    text-decoration: none;
+}
+
+#title .title-img .desc-img {
+    font-size: 0.8em;
+}
