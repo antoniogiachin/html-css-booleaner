@@ -28,7 +28,7 @@ header #logo-bool{
     font-size: 3em;
 }
 
-#title .desc-title {
+#title .desc-title, #infos span {
     color: #928f8f;
 }
 
@@ -81,4 +81,24 @@ header #logo-bool{
     width: 50%;
     padding:2px;
     text-align: left;
+}
+
+/* Infos */
+#infos {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#infos .info-img{
+    margin-top: 20px;
+    position: relative;
+}
+
+#infos .info-img > span{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 600;
 }
