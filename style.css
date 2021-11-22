@@ -9,18 +9,21 @@ header{
     height: 180px;
     background-color: rgb(8, 164, 216);       
     background-image: url(img/pattern.png) ;
-    position: relative;
 }
 
-header #logo-bool{    
+header #logo-bool{        
+    height: 100%;
+    position: relative;    
+}
+
+header #logo-bool img {
     width: 20%;
     position: absolute;
-    bottom:10%;
-    left:6%;
+    bottom:0;
 }
 
 /* Title  */
-#title h1, #title .desc-title, #title .title-img{
+#title h1, #title .desc-title, #title .title-img, #body p, #body table{
     margin:10px;
 }
 
@@ -41,9 +44,6 @@ header #logo-bool{
 }
 
 /* Corpo  */
-#body p, #body table {
-    margin:10px;
-}
 
 #body ul{
     margin-left: 30px;
@@ -94,11 +94,14 @@ header #logo-bool{
     position: relative;
 }
 
-#infos .info-img > span{
+#infos .info-img > a{
     position: absolute;
     top: 10px;
     left: 20px;
     font-size: 1.2em;
     color: white;
     font-weight: 600;
+    text-decoration: none;
 }
+
+

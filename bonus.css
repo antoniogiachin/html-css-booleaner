@@ -1,5 +1,12 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 
-main{
+main, header #logo-bool{
     width: 90%;
     margin: auto;
 }
+
+
+    
+    
